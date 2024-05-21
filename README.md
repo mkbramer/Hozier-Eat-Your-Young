@@ -1,6 +1,6 @@
-# Single Song Promotion
+# Eat Your Young by Hozier
 
-> Playlists more popular than albums 
+> "I'm starvin', darlin'"
 
 ## What is this? 
 * A website to promote a single-song
@@ -13,4 +13,4 @@
 * What's old is new agai. This is the [modern mixtape](https://en.wikipedia.org/wiki/Mixtape) or a compilation of curated songs. 
 
 ## Citations
-* Your citations go here
+* [Genius] (URL to Genius Lyrics)
