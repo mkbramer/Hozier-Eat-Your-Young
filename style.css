@@ -32,7 +32,10 @@ main {
 
     background: lightgray;
 }
-
+.mp3{
+    padding:36px;
+  
+}
 main img {
     /* Fit image to container */
     max-width: 100%;
