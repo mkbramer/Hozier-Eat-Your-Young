@@ -13,4 +13,4 @@
 * What's old is new agai. This is the [modern mixtape](https://en.wikipedia.org/wiki/Mixtape) or a compilation of curated songs. 
 
 ## Citations
-* [Genius] (URL to Genius Lyrics)
+* [Genius] (https://genius.com/Hozier-eat-your-young-lyrics)
