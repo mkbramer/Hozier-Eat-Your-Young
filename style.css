@@ -23,6 +23,7 @@
 
 body {
     background-image: url("givethisatry.png");
+    background: center; 
 }
 img{
     padding-top: 16px;
