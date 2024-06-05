@@ -1,31 +1,36 @@
 /* CSS Variables */
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
 :root {
     /* main UI color */
-    --plyr-color-main: darkgray;
+    --plyr-color-main: #A99593;
     /* audio controls background */
-    --plyr-audio-controls-background: black;
+    --plyr-audio-controls-background: #191E27;
     /* audio controls color */
-    --plyr-audio-control-color: white;
+    --plyr-audio-control-color: #E6E3DE;
     /* font family for player */
-    --plyr-font-family: sans-serif;
+    --plyr-font-family: "League Spartan";
     /* font size of player  */
     --plyr-font-size-time: 16px;
 
     /* Other optional customiziations */
-    --plyr-audio-control-color-hover:  black;
-    --plyr-audio-progress-buffered-background:  black;
-    --plyr-audio-range-track-background: white;
-    --plyr-tooltip-background: white;
-    --plyr-tooltip-color: black; 
+    --plyr-audio-control-color-hover:  #191E27;
+    --plyr-audio-progress-buffered-background:  #191E27;
+    --plyr-audio-range-track-background: #E6E3DE;
+    --plyr-tooltip-background: #E6E3DE;
+    --plyr-tooltip-color: #191E27; 
     --plyr-control-icon-size: 16px;
     --plyr-audio-controls-background: #545D4C;
+
 }
 
 body {
     background-image: url("maybeTHIsone.jpg");
 }
 img{
-    padding-top: 16px;
+    padding-top: 32px;
 }
 
 /* Layout */
@@ -34,8 +39,11 @@ main {
     max-width: 60em;
     margin-inline:auto;
     padding:0 36px 16px;
-    background: lightgray;
+    background:  #191E27; 
+    border: thick double #A99593;
+    border-width: 12px; 
 }
+
 .mp3{
     padding:36px;
   
@@ -58,6 +66,22 @@ article {
 article section {
     /* keep flex'd child same width */
     flex: 1;
+}
+
+h1 {
+    font-family: "Libre Baskerville"; 
+    font-style: italic; 
+    color: #A99593; 
+}
+
+h2 {
+    font-family: "Libre Baskerville"; 
+    color: #646e5c;
+}
+
+p {
+    font-family: "League Spartan";
+    color: #E6E3DE; 
 }
 
 /* Footer */
