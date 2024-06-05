@@ -18,19 +18,24 @@
     --plyr-tooltip-background: white;
     --plyr-tooltip-color: black; 
     --plyr-control-icon-size: 16px;
+    --plyr-audio-controls-background: #545D4C;
 }
 
 body {
-    background: gray;
+    background-image: url("marita-kavelashvili-ugnrXk1129g-unsplash.jpg");
+}
+img{
+    padding-top: 16px;
 }
 
 /* Layout */
 main {
     /* Fixed width center align */
     max-width: 60em;
-    margin-inline: auto;
-
+    margin-inline:auto;
+    padding:0 36px 16px;
     background: lightgray;
+
 }
 .mp3{
     padding:36px;
@@ -40,6 +45,7 @@ main img {
     /* Fit image to container */
     max-width: 100%;
     display: block;
+    
 }
 
 /* Primary Content */
